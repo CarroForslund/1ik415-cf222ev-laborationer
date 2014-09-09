@@ -12,5 +12,37 @@
             <li><a href="pages/laborationer.html">Laborationer</a></li>
             <li><a href="pages/kontakt.html">Kontakt</a></li>
         </ul>
+        <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+            <fieldset>
+                <legend>Vem är du?</legend>
+                Namn:<br />
+                <input type="text" name="namn" id="namn" /> <br />
+                E-post:<br />
+                <input type="text" name="epost" id="epost" /> <br />
+                Telefon:<br />
+                <input type="text" name="tel" id="tel" /> <br />
+            </fieldset>
+            <fieldset>
+                <legend>När, var och hur?</legend>
+                <p>Hur vill du att jag kontaktar dig?<br />
+                <input type="radio" name="hur" value="epost">E-post
+                <input type="radio" name="hur" value="tel">Telefon</p>
+                
+                När vill du att jag kontaktar dig?
+                <label>Tid</label>
+                    <select id="nar">
+                    <option value="morgon">Morgon</option>
+                    <option value="fm">Förmiddag</option>
+                    <option value="em">Eftermiddag</option>
+                    <option value="kvall">Kväll</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Vad vill du?</legend>
+                <p>Meddelande:<br />
+                <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea></p>
+            </fieldset>
+                <input type="submit" name="skicka" id="skicka" value="Skicka" />
+        </form>
     </body>
 </html>
