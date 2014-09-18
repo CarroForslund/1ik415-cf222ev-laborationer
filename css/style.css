@@ -5,10 +5,12 @@ body {
 #container {
     width: 1000px;
     background-color: #ffffff;
+    margin: 10px auto;
+    padding: 20px;
 }
 
 #header {
-    margin: 20px 20px 0 20px;
+    width: 920px;
 }
 
 #nav {
@@ -17,10 +19,11 @@ body {
 }
 
 #content {
-    width: 750px;
+    width: 800px;
     float: right;
 }
 
 #footer {
-    height: 100px;
+    height: 50px;
+    width: 920px;
 }
