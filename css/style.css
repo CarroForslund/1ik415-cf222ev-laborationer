@@ -1,29 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700); /* Rubriker */
+@import url(http://fonts.googleapis.com/css?family=Raleway); /* Brödtext */
+
+/* FÄRGPALETT: http://paletton.com/#uid=15c0u0kllllgoHxiSsLnOdVqi6v */
+
 body {
-    background-color: #ececec;
+    background-color: #8B2E5F;
+    font-family: 'Raleway', sans-serif;
 }
 
 #container {
     width: 1000px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     margin: 10px auto;
     padding: 20px;
+    overflow:auto;
+    -webkit-box-shadow: 5px 5px 5px 5px #2A081A;
+    box-shadow: 5px 5px 5px 5px #2A081A;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 #header {
-    width: 920px;
+    width: 1000px;
+    height: 60px;
+    margin-bottom: 40px;
+    border-bottom: 10px solid #BB4D87;
 }
 
 #nav {
     float: left;
-    width: 150px;
+    width: 130px;
+    margin-left: 10px;
 }
 
 #content {
-    width: 800px;
+    width: 850px;
     float: right;
 }
 
 #footer {
     height: 50px;
-    width: 920px;
+    width: 1000px;
+    float: left;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+/*-- RUBRIKER -----------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    background: #e26eab; /* Old browsers */
+    background: -webkit-gradient(linear, 0 0, 100% 0, color-stop(0.3, #e26eab), color-stop(0.99, #bb4d87));
+    background: -webkit-linear-gradient(left, #e26eab 30%, #bb4d87 99%);
+    background: -moz-linear-gradient(left, #e26eab 30%, #bb4d87 99%);
+    background: -o-linear-gradient(left, #e26eab 30%, #bb4d87 99%);
+    background: linear-gradient(left, #e26eab 30%, #bb4d87 99%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26eab', endColorstr='#bb4d87',GradientType=1 ); /* IE6-9 */
+    padding: 5px;
+    color: #FFFFFF;
+    
+}
+
+/*-- LÄNKAR -------------------------------------------*/
+a:link { 
+    color: #8B2E5F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2A081A;
+    text-decoration: none;
+}
+
+a:focus { /* markerad med tangentbord */
+    color: #5A173C;
+}
+
+a:hover { 
+    color: #5A173C;
+}
+
+a:active { /* innan sidan laddats */
+    color: #5A173C;
+}
+
+/*-- NAVLÄNKAR -----------------------------------------*/
+#nav a:link, a:visited, a:active, a:focus, a:hover, a:active {
+    text-decoration: none;
+}
+
+#nav a:link, a:visited, a:active { 
+    color: #8B2E5F;
+}
+
+#nav a:focus, a:hover, a:active {
+    color: #5A173C;
+}
+
+#nav ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#nav ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.blogdata {
+    font-size: 0.8em;
+    color: #8B2E5F;
+}
+
+p {
+    padding: 5px;
 }
