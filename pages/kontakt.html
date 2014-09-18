@@ -5,44 +5,59 @@
         <title>Carros sida</title>
     </head>
     <body>
-        <!-- Navigering -->
-        <ul>
-            <li><a href="../index.html">Startsida</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-        <form id="form" name="form" method="get" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-            <fieldset>
-                <legend>Vem är du?</legend>
-                Namn:<br />
-                <input type="text" name="namn" id="namn" /> <br />
-                E-post:<br />
-                <input type="text" name="epost" id="epost" /> <br />
-                Telefon:<br />
-                <input type="text" name="tel" id="tel" /> <br />
-            </fieldset>
-            <fieldset>
-                <legend>När, var och hur?</legend>
-                <label>Hur vill du att jag kontaktar dig?</label><br />
-                <input type="radio" name="hur" value="epost">E-post
-                <input type="radio" name="hur" value="tel">Telefon
-                
-                När vill du att jag kontaktar dig?
-                <label>Tid</label>
-                    <select id="nar">
-                    <option value="morgon">Morgon</option>
-                    <option value="fm">Förmiddag</option>
-                    <option value="em">Eftermiddag</option>
-                    <option value="kvall">Kväll</option>
-                </select>
-            </fieldset>
-            <fieldset>
-                <legend>Vad vill du?</legend>
-                <p>Meddelande:<br />
-                <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea></p>
-            </fieldset>
-                <input type="submit" name="skicka" id="skicka" value="Skicka" />
-        </form>
+        <div id="container">
+        
+            <div id="header">
+                <img src="../pics/logga-namnteckning.png" alt="logga">
+            </div><!-- header -->
+            
+            <div id="nav">
+                <ul>
+                    <li><a href="../index.html">Startsida</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div><!-- nav -->
+            
+            <div id="content">
+                <form id="form" name="form" method="get" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                    <fieldset>
+                        <legend>Vem är du?</legend>
+                        Namn:<br />
+                        <input type="text" name="namn" id="namn" /> <br />
+                        E-post:<br />
+                        <input type="text" name="epost" id="epost" /> <br />
+                        Telefon:<br />
+                        <input type="text" name="tel" id="tel" /> <br />
+                    </fieldset>
+                    <fieldset>
+                        <legend>När, var och hur?</legend>
+                        <label>Hur vill du att jag kontaktar dig?</label><br />
+                        <input type="radio" name="hur" value="epost">E-post
+                        <input type="radio" name="hur" value="tel">Telefon
+                        
+                        När vill du att jag kontaktar dig?
+                        <label>Tid</label>
+                            <select id="nar">
+                            <option value="morgon">Morgon</option>
+                            <option value="fm">Förmiddag</option>
+                            <option value="em">Eftermiddag</option>
+                            <option value="kvall">Kväll</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Vad vill du?</legend>
+                        <p>Meddelande:<br />
+                        <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea></p>
+                    </fieldset>
+                        <input type="submit" name="skicka" id="skicka" value="Skicka" />
+                </form>
+            </div><!-- content -->
+            <div id="footer">
+                <p>Ansvarig för materialet på denna sida är Caroline Forslund</p>
+            </div><!-- footer -->
+            
+        </div><!-- container -->
     </body>
 </html>

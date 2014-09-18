@@ -5,98 +5,111 @@
         <title>Carros sida</title>
     </head>
     <body>
-        <!-- Navigering -->
-        <ul>
-            <li><a href="../index.html">Startsida</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-        
-        <h1>Min laborationsportal</h1>
-        <p>Här kommer det mer innehåll vartefter kursen går.</p>
-        
-        <h2>Webbteknisk introduktion</h2>
-        <ul>
-            <li><a href="#laboration1">Laboration 1</a></li>
-            <!--<li><a href="#laboration2">Laboration 2</a></li>
-            <li><a href="#laboration3">Laboration 3</a></li>-->
-        </ul>
-        
-        <h3>Resultat</h3>
-        <table border="1">
-            <thead><!-- Kolumnrubriker -->
-                <tr>
-                    <th>Laboration</th>
-                    <th>Uppgift</th>
-                    <th>Status</th>
-                    <th>Redovisad</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="3">1</td>
-                    <td>1</td>
-                    <td>Arbetar</td>
-                    <td><!-- redovisad --></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Ej påbörjad</td>
-                    <td><!-- redovisad --></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Ej påbörjad</td>
-                    <td><!-- redovisad --></td>
-                </tr>
-                <tr>
-                    <td rowspan="3">2</td>
-                    <td>1</td>
-                    <td>Ej påbörjad</td>
-                    <td><!-- redovisad --></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Ej påbörjad</td>
-                    <td><!-- redovisad --></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Ej påbörjad</td>
-                    <td><!-- redovisad --></td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="4">Laborationsresultat gällande Caroline Forslund</td>
-                </tr>
-            </tfoot>
+    <div id="container">
+            <div id="header">
+                <img src="../pics/logga-namnteckning.png" alt="logga">
+            </div><!-- header -->
             
-        </table>
+            <div id="nav">
+                <ul>
+                    <li><a href="../index.html">Startsida</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div><!--nav -->
+            
+            <div id="content">
+            <h1>Min laborationsportal</h1>
+            <p>Här kommer det mer innehåll vartefter kursen går.</p>
+            
+            <h2>Webbteknisk introduktion</h2>
+            <ul>
+                <li><a href="#laboration1">Laboration 1</a></li>
+                <!--<li><a href="#laboration2">Laboration 2</a></li>
+                <li><a href="#laboration3">Laboration 3</a></li>-->
+            </ul>
+            
+            <h3>Resultat</h3>
+            <table border="1">
+                <thead><!-- Kolumnrubriker -->
+                    <tr>
+                        <th>Laboration</th>
+                        <th>Uppgift</th>
+                        <th>Status</th>
+                        <th>Redovisad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">1</td>
+                        <td>1</td>
+                        <td>Arbetar</td>
+                        <td><!-- redovisad --></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ej påbörjad</td>
+                        <td><!-- redovisad --></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ej påbörjad</td>
+                        <td><!-- redovisad --></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">2</td>
+                        <td>1</td>
+                        <td>Ej påbörjad</td>
+                        <td><!-- redovisad --></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ej påbörjad</td>
+                        <td><!-- redovisad --></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ej påbörjad</td>
+                        <td><!-- redovisad --></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Laborationsresultat gällande Caroline Forslund</td>
+                    </tr>
+                </tfoot>
+                
+            </table>
+            
+            <h3><a name="laboration1">Laboration 1</a></h3>
+            <p>Uppgifter:</p>
+            <ol>
+                <li>Absoluta och relativa sökvägar</li>
+                <dl>
+                    <dt>Vilken är den absoluta sökvägen till filen bottom.html?</dt>
+                        <dd>http://www.minsida.se/html/pages/bottom.html</dd>
+                    <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+                        <dd>pages/top.html</dd>
+                    <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+                        <dd>../../index.html</dd>
+                    <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
+                        <dd>http://www.minsida.se/index.html</dd>
+                    <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+                        <dd>bottom.html</dd>
+                    <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
+                    <dd>html/pages/top.html</dd>
+                </dl>
+                <li>Här kommer en <a href="../pics/logga-namnteckning.png" alt="logga">länk till min logga</a> (bildfilen).</li>
+                <li>För att komma till blogginlägget med SVG-filen (uppgift 1.6) klickar du <a href="../index.html#prinsgroda">här</a>.</li>
+            </ol>
+            </div><!-- container -->
+            
+            <div id="footer">
+                <p>Ansvarig för materialet på denna sida är Caroline Forslund</p>
+                <!-- <p>Innehållet på denna sida tillhör <a href="presentation.html#carro">Caroline Forslund</a></p> -->
+            </div><!-- footer -->
         
-        <h3><a name="laboration1">Laboration 1</a></h3>
-        <p>Uppgifter:</p>
-        <ol>
-            <li>Absoluta och relativa sökvägar</li>
-            <dl>
-                <dt>Vilken är den absoluta sökvägen till filen bottom.html?</dt>
-                    <dd>http://www.minsida.se/html/pages/bottom.html</dd>
-                <dt>Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-                    <dd>pages/top.html</dd>
-                <dt>Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-                    <dd>../../index.html</dd>
-                <dt>Vilken är den absoluta sökvägen till filen index.html?</dt>
-                    <dd>http://www.minsida.se/index.html</dd>
-                <dt>Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-                    <dd>bottom.html</dd>
-                <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
-                <dd>html/pages/top.html</dd>
-            </dl>
-            <li>Här kommer en <a href="../pics/logga-namnteckning.png" alt="logga">länk till min logga</a> (bildfilen).</li>
-            <li>För att komma till blogginlägget med SVG-filen (uppgift 1.6) klickar du <a href="../index.html#prinsgroda">här</a>.</li>
-        </ol>
-        
-        <p>Innehållet på denna sida tillhör <a href="presentation.html#carro">Caroline Forslund</a></p>
+        </div><!-- container -->
     </body>
 </html>
