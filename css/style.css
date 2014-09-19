@@ -90,22 +90,24 @@ a:active { /* innan sidan laddats */
 /*-- NAVLÄNKAR -----------------------------------------*/
 #nav a:link, a:visited, a:active, a:focus, a:hover, a:active {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
-#nav a:link, a:visited, a:active { 
-    color: #8B2E5F;
-    background-color: #BB4D87;
+/*#nav a:link, a:visited, {}*/
+
+#nav a:focus, a:hover, ul li {
+    background-color: #E26FAC;
 }
 
-#nav a:focus, a:hover, a:active {
-    color: #5A173C;
+#nav .active {
     background-color: #E26FAC;
 }
 
 #nav ul li {
     list-style-type: none;
-    margin-bottom: 10px;
     font-weight: bold;
+    padding: 5px;
+    background-color: #BB4D87;
 }
 
 #nav ul {
