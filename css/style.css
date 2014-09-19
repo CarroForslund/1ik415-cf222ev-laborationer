@@ -94,10 +94,12 @@ a:active { /* innan sidan laddats */
 
 #nav a:link, a:visited, a:active { 
     color: #8B2E5F;
+    background-color: #BB4D87;
 }
 
 #nav a:focus, a:hover, a:active {
     color: #5A173C;
+    background-color: #E26FAC;
 }
 
 #nav ul li {
