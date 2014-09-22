@@ -35,12 +35,13 @@ body {
 #content {
     width: 500px;
     float: left;
+    margin-left:40px;
 }
 
 #sidebar {
     width: 200px;
     height: 800px;
-    float: left;
+    float: right;
 }
 
 #footer {
