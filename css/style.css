@@ -35,13 +35,16 @@ body {
 #content {
     width: 560px;
     float: left;
-    margin-left:40px;
+    margin-left:65px;
 }
 
 #sidebar {
-    width: 155px;
+    width: 165px;
     height: 800px;
     float: right;
+    padding: 5px;
+    border: 1px solid #BB4D87;
+    text-align: center;
 }
 
 #footer {
@@ -71,7 +74,6 @@ h2 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26eab', endColorstr='#bb4d87',GradientType=1 ); /* IE6-9 */
     padding: 5px;
     color: #FFFFFF;
-    
 }
 
 /*-- NAVLÄNKAR -----------------------------------------*/
@@ -138,6 +140,7 @@ ul li a:hover, a:active, a:focus {
 .blogdata {
     font-size: 0.8em;
     color: #8B2E5F;
+    border-bottom: #5A173C 1px solid;
 }
 
 p {
