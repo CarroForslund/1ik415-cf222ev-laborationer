@@ -110,6 +110,7 @@ h2 {
     background-color: #E26FAC; /* rosa */
     background-color: #EC731A; /* orange */
     display: block;
+    
 }
 
 #nav ul li a:focus {
@@ -126,7 +127,7 @@ h2 {
 
 
 /*-- LÄNKAR -------------------------------------------*/
-a:link, a:visited { 
+a { 
     color: #EC731A;
     text-decoration: none;
 }
