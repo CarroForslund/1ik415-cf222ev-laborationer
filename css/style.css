@@ -86,10 +86,6 @@ h2 {
 }
 
 /*-- NAVLÄNKAR -----------------------------------------*/
-/*#nav ul a:link, a:visited, a:active, a:focus, a:hover li {}*/
-
-/*#nav a:link, a:visited, {}*/
-
 #nav ul {
     list-style-type: none;
     margin: 0px;
@@ -146,6 +142,7 @@ ul li a:hover, a:active, a:focus {
     text-decoration: underline;
 }
 
+/*-----------------------------------------------------*/
 .left {
     float: left;
     margin: 5px 20px 5px 0;
@@ -171,11 +168,23 @@ p {
     padding: 5px;
 }
 
-table {
-    border: 1px solid;
+/*-- TABELLER -------------------------------------------*/
+table, th, td {
+    border: 1px solid #000000;
     padding: 3px;
 }
 
-table-cell {
-    border: 1px solid;
+/*-- FORMULÄR -------------------------------------------*/
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #414959;
+}
+
+textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
+@media print {
+    #header, #footer, #nav, #sidebar { display: none;}
+    #container {border: none; box-shadow: none;}
 }
