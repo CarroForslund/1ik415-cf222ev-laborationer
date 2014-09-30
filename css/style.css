@@ -229,4 +229,6 @@ textarea {
 @media print {
     #header, #footer, #nav, #sidebar { display: none;}
     #container {border: none; box-shadow: none;}
+    #content {width:100%; margin:20px 0px;}
+    a:after { content:" (" attr(href) ") "; }
 }
