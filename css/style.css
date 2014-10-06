@@ -270,9 +270,15 @@ textarea {
         background-image: none;
         text-indent: 0px;
     }
+    
+    img, video {
+        max-width: 100%;
+    }
+    
+    table {
+        overflow: auto;
+    }
 }
-
-
 
 @media print {
     #header, #footer, #nav, #sidebar { display: none;}
