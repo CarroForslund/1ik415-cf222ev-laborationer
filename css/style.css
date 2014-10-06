@@ -17,7 +17,7 @@ body {
     background-color: #FFFFFF;
     margin: 10px auto;
     padding: 20px;
-    overflow:auto;
+    overflow: auto;
     -webkit-box-shadow: 5px 5px 5px 5px #3A5351;
     box-shadow: 5px 5px 5px 5px #3A5351;
     -webkit-border-radius: 4px;
@@ -240,7 +240,7 @@ textarea {
         height: 4.2em;
         margin-bottom: 0.5em;
         border-bottom: 0px;
-        background-size: 70%
+        background-size: 70%;
     }
     
     #nav {
@@ -256,7 +256,8 @@ textarea {
     }
     
     #sidebar {
-        display: none;
+        float: none;
+        margin: 1em auto;
     }
     
     #footer {
@@ -276,7 +277,7 @@ textarea {
     }
     
     table {
-        overflow: auto;
+        overflow-x: scroll;
     }
 }
 
