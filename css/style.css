@@ -58,12 +58,19 @@ body {
 }
 
 #footer {
-    height: 50px;
     width: 1000px;
     float: left;
     font-size: 0.8em;
     color: #109385;
-    text-align: right;
+    text-align: center;
+}
+
+#hcard {
+    width: 350px;
+    border: 1px solid #BB4D87;
+    background-color: #ECECEC;
+    margin: 10px auto;
+    padding: 10px;
 }
 
 /*-- RUBRIKER -----------------------------------------*/
