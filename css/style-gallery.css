@@ -1,14 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(//fonts.googleapis.com/css?family=Indie+Flower);
 
 body {
     font-family: 'Indie Flower', cursive;
 }
 
 #gallery {
-    margin: 50px auto;
+    margin: 20px auto;
     width: 1000px;
-    padding: 50px 200px;
-    border: 1px solid black;
+    padding: 0px 200px 200px 200px;
     overflow: auto;
 }
 
@@ -19,7 +18,7 @@ img {
 
 a {
     display: block;
-    border: 1px solid #000000;
+    border: 1px solid #ECECEC;
     -webkit-box-shadow: 5px 5px 10px 3px #6B6B6B;
     box-shadow: 5px 5px 10px 3px #6B6B6B;
     width: 200px;
@@ -36,7 +35,7 @@ a:after {
     content: attr(title);
 }
 
-a:nth-child(3n+2) {
+a:nth-child(3n+3) {
     transform: rotate(-5deg);
 }
 
@@ -53,6 +52,8 @@ a:hover, a:focus {
     transform: rotate(0deg);
     transform: scale(1.2);
     z-index: 1;
+    -webkit-box-shadow: 10px 10px 100px 3px #6B6B6B;
+    box-shadow: 10px 10px 100px 3px #6B6B6B;
 }
 
 
